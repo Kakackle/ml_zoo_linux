@@ -11,3 +11,8 @@ Then to check whether a GPU device is indeed available:
 print(tf.config.list_physical_devices('GPU'))
 ```
 
+To install dependencies with conda:
+
+```
+    conda env create -f environment.yaml
+```
